@@ -1,0 +1,2 @@
+'/' -> home
+'/sitemap.xml' -> sitemap
