@@ -15,7 +15,7 @@ app.use(function (req, res, next) {
 })
 
 app.use(express.static('public'))
-app.set('views', 'views')
+app.set('views', 'views', "views/admin-views/")
 app.set('view engine', 'ejs')
 
 app.use('/', router)
