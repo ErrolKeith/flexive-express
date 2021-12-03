@@ -6,7 +6,8 @@
     <meta name="description" content="<%= site.description %>">
     <meta name="keywords" content="<%= site.keywords %>" />
     <title><%= site.title %></title>
+    <%- include('vendor-head-tags') %>
     <link href="/main.css" rel="stylesheet">
     <%- include('head-scripts') %>
 </head>
-<body>
+<body id="body">

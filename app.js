@@ -5,7 +5,7 @@ const fs = require("fs");
 app = express()
 const router = require('./routers/router')
 
-//set up all config data to be passed to the front end and store it in a json object.
+//set up all site config data to be passed to the front end views from site-config.json.
 let siteConfig = fs.readFileSync("./site-config.json")
 const siteInfo = JSON.parse(siteConfig);
 
